@@ -6,29 +6,87 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
     <link  rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="debug.css" />
+
     <link rel ="stylesheet" href="article.css"/>
     <style>
 
 
-   .size-1{grid-column: 4/5};
-   .size-2{grid-column: 3/6};
-   .size-3{grid-column: 2/7};
-   .size-4{grid-column: 1/8};
 
-   img.size-1, img.size-2, img.size-3, img.size-4{width:100%}
 
+ 
+
+ h1{font: 700 2rem/1.2 "Roboto"; color: hsl(000,0%,33%);}
+ h2{font: 400 1.5rem/1.2 "Roboto"; color:hsl(000,0%,33%);}
+ time{font: 700 1rem/1.2 "Roboto"; color: hsl(271,100%,75%);}
+ h3{font:700 1rem/1.2"Roboto"; color:hsl(271,70%,33%);}
+ p{font:400 1rem/1.5 "Roboto";color:hsl(000,0%,33%);}
+
+ figcaption  p{font:400 1rem/1.5 "Roboto";color:hsl(000,0%,83%);}
+
+
+a{box-shadow: inset 0 -0.25em hsl(55,100%,75%); }
+
+@media(max-width:8.5in){root{font-size: 18px;}}
+@media(max-width:6in) {root{font-size:16px;}}
+
+.share{
+    display:flex;
+    justify-content: center;
+}
+
+.share img{
+    padding: 0.75rem;
+    width:1.50rem;
+    
+}
 
     </style>
 </head>
 <body>
 
-    <article>
-        <img class="size-4"src="space-03.jpg" />
-        <img class="size-3" src="space-03.jpg" />
-        <img class="size-2" src="space-03.jpg" />
-        <img class="size-1" src="space-03.jpg" />
+    <article id="the-cosmos1">
+        <h1><a href="#the-cosmos">The <em>Cosmos</em> is all there is</a></h1>
+        <h2>Or ever was, or ever will be</h2>
+
+        <time datetime="03-09-2014">MAR, 9, 2014</time>
+
+        <p>
+            <em>A generation ago</em>, the astronomer
+            <a href="https://en.wikipedia.org/wiki/carl_sagan" Carl Sagan> </a>
+
+            stood here and launched hundreds of millions of us on a great adventure the exploration of the universe
+        revealed bu science. It's time to get going again.
+        We're about to begin a journey that will take us from the infinitesimal to the infinite,from the dawn of time to the distant future.
+        We'lings that  explore gaaxies and suns and worlds, surf the gravity waves of space-time,
+        encounter beings that live in fire and ice, explore the planets of stars that never die, discover atoms as massive as suns and universes smaller than atoms.   
+        </p>
+        <figure class ="size-4">
+        <img src="space-03.jpg" />
+        </figure>
+        <figcaption><p> The <em>Cosmo</em> picture</p></figcaption>
+
+        <h3>COSMOS IS ALSO A STORY ABOUT US</h3>
+
+        <p>
+            It's the saga of how wandering bands of hunters and gatherers found their way to the stars,one adventure width
+            many heroes.To make this journey, we'll need imagination.
+            But imagination alone is not enough because the realitiy of nature is far more
+            wonderous than anything we can imagine.
+            This adventure is made possible by generations of searchers strictly adhering to a simple set of rules test ideas by experiment and observation, build
+            on those ideas that pass the test, reject the ones that fail, follow the evidence wherever it leads and question everything.
+            <strong>Accept these terms, and the cosmos is yours.</strong>
+
+        </p>
+
+        <div class="share">
+          <a href=""> <img src="rebels.png" /></a>
+          <a href="" > <img src="empire.png" /> </a>
+
+
+        </div>
+   
     </article>
 
 
